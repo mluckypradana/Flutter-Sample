@@ -28,11 +28,6 @@ class MainState extends State<MainWidget> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Startup Name Generator'),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.list),
-          )
-        ],
       ),
       body: _buildLayout(),
     );
@@ -59,12 +54,16 @@ class MainState extends State<MainWidget> {
                 width: double.infinity,
                 child: RaisedButton(
                   child: Text('Fetch Data'),
-                  color: Colors.blueAccent,
-                  textColor: Colors.white,
-                  splashColor: Colors.grey,
                   onPressed: _showAlbumPage,
                 ),
               ),
+            SizedBox(
+              width: double.infinity,
+              child: RaisedButton(
+                child: Text('Testing Page'),
+                onPressed: _showStartupNamerPage,
+              ),
+            ),
           ],
         ),
       ),
