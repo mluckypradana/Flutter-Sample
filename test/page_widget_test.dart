@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:startupnamer/page/testing.dart';
+import 'package:flutter_sample/page/testing.dart';
 
 void main() {
   group('fetchPost', () {

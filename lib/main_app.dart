@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:startupnamer/page/album.dart';
-import 'package:startupnamer/page/startup_namer.dart';
+import 'package:flutter_sample/page/album.dart';
+import 'package:flutter_sample/page/startup_namer.dart';
 void main() => runApp(MyApp());
 
 // #docregion MyApp

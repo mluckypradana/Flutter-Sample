@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:startupnamer/data/album.dart';
-import 'package:startupnamer/repo/album.dart' as albumRepo;
+import 'package:flutter_sample/data/album.dart';
+import 'package:flutter_sample/repo/album.dart' as albumRepo;
 
 // #docregion MyApp
 class AlbumPage extends StatelessWidget {
